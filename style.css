@@ -2,5 +2,9 @@
 
 * {
     font-family: 'Chango', cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(50, 50, 50);
 }
 
+img {
+    width: 1000px;
+}
