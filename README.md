@@ -1,6 +1,6 @@
 # Taco-Form
 
-The Odin Project Forms Project
+The Odin Project Forms Project.
 
 I will be creating a user friendly form with client side validation using HTML and CSS.
 
