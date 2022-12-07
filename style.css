@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 
-* {
-    font-family: 'Chango', cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(50, 50, 50);
+:root {
+    --background-color: rgb(50, 50, 50);
 }
 
+html {
+    font-family: 'Chango', cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--background-color);
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+
+body {
+    display: flex;
+    margin: 0;
+}   
+
 img {
-    width: 1000px;
+    width: 730px;
 }
