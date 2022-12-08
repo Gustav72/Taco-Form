@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
 
 :root {
-    --background-color: rgb(50, 50, 50);
+    --background-color: rgb(20, 20, 20);
+    --taco-text: rgba(255, 255, 255, 0.75);
+    --taco-green: #32CD32;
 }
 
 html {
-    font-family: 'Chango', cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'IBM Plex Sans', Cambria, Cochin, Georgia, serif;
     background-color: var(--background-color);
-    /* margin: 0; 
+    color: var(--taco-color);
+    color: var(--taco-text);
+    margin: 0; 
     height: 100%; 
-    overflow: hidden */
+    overflow: hidden;
+    font-size: 1.2rem;
 }
 
 body {
@@ -17,11 +23,28 @@ body {
     margin: 0;
 }
 
+img {
+    width: 730px;
+}
+
+a {
+    color: var(--taco-green);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+button {
+    border-width: 5px;;
+    background-color: var(--background-color);
+    border-color: var(--taco-green);
+    color: var(--taco-text);
+}
+
 .input {
     display: flex;
 }
 
 
-img {
-    width: 730px;
+.form-container {
+    padding: 200px;
 }

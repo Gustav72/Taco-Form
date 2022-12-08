@@ -9,48 +9,51 @@
 </head>
 <body>
     <div>
+        <div></div>
         <img src="chad-montano-lP5MCM6nZ5A-unsplash.jpg" alt="delicious tacos">
     </div>
-    <div class="form">
-        <h1>FREE TACO FORM FONT TEST YAYYY</h1>
-        <form action="#">
-            <legend>Create an account to participate in the free taco initiative</legend>
-            <p>Required fields are followed by <span aria-label="required">*</span></p>
-            <div class="input">
-                <div class="left">
-                    <div>
-                        <label for="first-name">First Name: <span aria-label="required">*</span></label>
-                        <input id="first-name" type="text" name="first-name" />
+    <div class="form-container">
+        <div class="form-div">
+            <h1><strong>Free Tacos For Everyone!</strong></h1>
+            <form action="#">
+                <legend><strong>Create an account to participate in the Free Taco Initiative, a totally real thing and not something i made up.</legend>
+                <p>Required fields are followed by <span aria-label="required">*</span></strong></p>
+                <div class="input">
+                    <div class="left">
+                        <div>
+                            <label for="first-name">First Name: <span aria-label="required">*</span></label>
+                            <input id="first-name" type="text" name="first-name" />
+                        </div>
+                        <div>
+                            <label for="email">Email: <span aria-label="required">*</span></label>
+                            <input id="email" type="email" name="email">
+                        </div>
+                        <div>
+                            <label for="password">Password: <span aria-label="required">*</span></label>
+                            <input id="password" type="password" name="password">
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">Email: <span aria-label="required">*</span></label>
-                        <input id="email" type="email" name="email">
-                    </div>
-                    <div>
-                        <label for="password">Password: <span aria-label="required">*</span></label>
-                        <input id="password" type="password" name="password">
+                    <div class="right">
+                        <div>
+                            <label for="last-name">Last Name: <span aria-label="required">*</span></label>
+                            <input id="last-name" type="text" name="last-name">
+                        </div>
+                        <div class="slidecontainer">
+                            <label for="range">Love for tacos on a scale of 1 to 100</label>
+                            <input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+                            <output>50</output>
+                        </div>
+                        <div>
+                            <label for="password">Password: <span aria-label="required">*</span></label>
+                            <input id="password" type="password" name="password">
+                        </div>
                     </div>
                 </div>
-                <div class="right">
-                    <div>
-                        <label for="last-name">Last Name: <span aria-label="required">*</span></label>
-                        <input id="last-name" type="text" name="last-name">
-                    </div>
-                    <div class="slidecontainer">
-                        <label for="range">Love for tacos on a scale of 1 to 100</label>
-                        <input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
-                        <output>50</output>
-                    </div>
-                    <div>
-                        <label for="password">Password: <span aria-label="required">*</span></label>
-                        <input id="password" type="password" name="password">
-                    </div>
-                </div>
+                <div><button type="submit"><h2>Create Account</h2></button></div>
+            </form>
+            <div>
+                <p>Already have an account? <a href="#">Click here to log in</a> </p>
             </div>
-            <div><button type="submit">Create Account</button></div>
-        </form>
-        <div>
-            <p>Already have an account?</p><a href="#">Log in</a>
         </div>
     </div>
 </body>
