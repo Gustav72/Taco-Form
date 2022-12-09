@@ -46,5 +46,69 @@ button {
 
 
 .form-container {
-    padding: 200px;
+    padding: 230px;
 }
+
+
+.card-container {
+    position: relative;
+}
+
+.taco-card {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: black;
+    opacity: .7;
+    color: white;
+    top: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.credit-card {
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 97vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 100px;
+}
+
+.input > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    background-color: rgb(50, 50, 50);
+    width: 300px;
+    
+}
+
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slide {
+    width: 720px;
+    padding-right: 0;
+    background: rgb(50, 50, 50);
+}
+
