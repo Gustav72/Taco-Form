@@ -16,9 +16,7 @@ The Landing Page project from [The Odin Project](https://www.theodinproject.com/
 
 ![Landing Page](./Screenshot.png)
 
-The Odin Project Forms Project.
-
-I will be creating a user friendly taco enthusiast form with client side validation using HTML and CSS. The required inputs will be accessible for those who use screen readers.
+This is a user friendly taco enthusiast form with client side validation using HTML and CSS. The required inputs will be accessible for those who use screen readers.
 
 This project demonstrated the use of pseudo selectors, basic client side input validation, and styled for each major browser.
 
