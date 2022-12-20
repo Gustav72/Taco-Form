@@ -14,7 +14,7 @@ Project from [The Odin Project](https://www.theodinproject.com/)
 
 ### Overview
 
-![Landing Page](./Screenshot.png)
+![Screenshot of User Interface](./Screenshot.png)
 
 This is a user friendly taco enthusiast form with client side validation using HTML and CSS. The required inputs will be accessible for those who use screen readers.
 
